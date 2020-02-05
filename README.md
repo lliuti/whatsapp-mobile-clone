@@ -30,6 +30,6 @@ Also, keep in mind that I'm using expo and android studio to emulate the app.
 
 ###### Built with
 
-React Native
-Expo
-Styled Components
+* React Native
+* Expo
+* Styled Components
