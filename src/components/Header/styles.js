@@ -2,8 +2,8 @@ import { StatusBar } from 'react-native'
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  /* background: #128C7E; */
-  background: #075E54;
+  background: #128C7E;
+  /* background: #075E54; */
   padding-top: ${StatusBar.currentHeight}px;
 `;
 
@@ -32,7 +32,6 @@ export const Tabs = styled.View`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* padding-bottom: 8px; */
 `;
 
 export const CameraTab = styled.View`

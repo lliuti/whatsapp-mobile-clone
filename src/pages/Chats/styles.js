@@ -4,29 +4,25 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   background: #fff;
-  /* padding: 10px; */
 `;
 
 export const ChatBox = styled.View`
   flex-direction: row;
+  border-bottom-color: #ccc;
+  border-bottom-width: ${StyleSheet.hairlineWidth}px;
 `;
 
 export const ImageBox = styled.View`
-  /* border-radius: 50%; */
   padding: 10px 10px;
 `;
 
-export const Image = styled.Image`
-  
-`;
+export const Image = styled.Image``;
 
 export const Details = styled.View`
   flex: 1;
   padding: 0 10px;
   margin-right: 10px;
   justify-content: center;
-  border-bottom-color: #ccc;
-  border-bottom-width: ${StyleSheet.hairlineWidth}px;
 `;
 
 export const Top = styled.View`
@@ -47,9 +43,7 @@ export const Date = styled.Text`
   color: #666;
 `;
 
-export const LastMessage = styled.View`
-  /* flex: 1; */
-`;
+export const LastMessage = styled.View``;
 
 export const Text = styled.Text`
   color: #666;
