@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "whatsapp-mobile-clone",
+    "name": "Clone Whatsapp",
     "slug": "whatsapp-mobile-clone",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -14,8 +14,8 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#333"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.liuti.whatsapp-clone"
+    },
+    "android": {
+      "package": "com.liuti.whatsappClone"
     }
   }
 }
