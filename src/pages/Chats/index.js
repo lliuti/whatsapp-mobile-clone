@@ -32,7 +32,7 @@ export default function Chats() {
           </DateBox>
         </Top>
         <LastMessage>
-          <Text>time to pracc</Text>
+          <Text>Não. Lorem ipsum</Text>
         </LastMessage>
       </Details>
     </ChatBox>
@@ -61,14 +61,14 @@ export default function Chats() {
       <Details>
         <Top>
           <TitleBox>
-            <Title>Lil Caio</Title>
+            <Title>Bluejay</Title>
           </TitleBox>
           <DateBox>
             <Date>22:39</Date>
           </DateBox>
         </Top>
         <LastMessage>
-          <Text>entra discord</Text>
+          <Text>entra no discord</Text>
         </LastMessage>
       </Details>
     </ChatBox>
