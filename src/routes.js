@@ -9,7 +9,8 @@ const Routes = createAppContainer(createMaterialTopTabNavigator({
   StatusCamera,
   Chats,
   Status
-},{
+},
+{
   initialRouteName: 'Chats',
   defaultNavigationOptions: {
     tabBarVisible: false,
